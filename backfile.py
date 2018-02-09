@@ -42,9 +42,9 @@ def backupconf(serverlist,username,passwd):
         mybackup.start()
 
 if __name__ == '__main__':
-    serverlist = ['10.10.1.10','10.10.1.9','10.10.253.1','10.10.253.2','10.9.1.1','10.9.1.4','10.9.2.1','10.9.2.2','10.9.2.3','10.9.2.4','10.9.2.5','10.100.2.1','10.100.15.254','10.100.15.1','10.100.15.2','10.100.15.3','10.100.15.4','10.100.15.5','10.100.15.6','10.100.15.7','10.100.15.8','10.100.15.252']
-    username = 'back'
-    passwd = 'Gq^_^Bp!@#'
+    serverlist = ['ip1','ip2','ip3','ipn']
+    username = ''
+    passwd = ''
     try:
         backupconf(serverlist,username,passwd)
     except:
